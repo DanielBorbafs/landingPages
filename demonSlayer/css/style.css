@@ -1,0 +1,51 @@
+/* Reset */
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo h1 {
+    font-family: Passero one;
+    font-size: 36px;
+    color: #ffff;
+}
+
+.logo span {
+    color: #FF0000;
+}
+
+.logo,
+.navbar,
+.profile-items {
+    margin-top: 1rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    font-family: montserrat;
+    font-size: 18px;
+    margin-left: 40px;
+    color: #ffff;
+}
+
+.profile-items {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.first-section {
+
+    background-image: url('../imgs/background.svg');
+    background-size: cover;
+    height: 100vh;
+    z-index: -1;
+}
