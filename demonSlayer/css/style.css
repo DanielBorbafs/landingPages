@@ -5,8 +5,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
+
+/* HEADER */
 .logo h1 {
     font-family: Passero one;
     font-size: 36px;
@@ -43,9 +46,140 @@
 }
 
 .first-section {
-
     background-image: url('../imgs/background.svg');
     background-size: cover;
     height: 100vh;
     z-index: -1;
 }
+
+
+
+.apresentation {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+
+
+.tag {
+    font-family: montserrat;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FF0000;
+    width: 100px;
+    border-radius: 1rem;
+    height: 32px;
+    color: #ffff;
+
+}
+
+.title {
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 36px;
+    color: #fff;
+}
+
+.low-text {
+    font-size: 12px;
+    font-weight: 200;
+    font-family: montserrat;
+    color: #FFFFFF;
+}
+
+.title-eps {
+    display: flex;
+    flex-direction: column;
+}
+
+.description {
+    width: 100%;
+    font-size: 18px;
+    color: #fff;
+}
+
+.btns {
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.btns h5 {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.btn-icon {
+    width: 24px;
+}
+
+.btn-watch {
+    background-color: red;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    padding: 15px 20px;
+    border-radius: 12px;
+    width: 100%;
+
+}
+
+
+.btn-trailer {
+    background-color: #3A3A3A;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    padding: 15px 20px;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.btn-fav {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    padding: 15px 20px;
+    border-radius: 12px;
+    border: 1px solid #fff;
+    width: 100%;
+}
+
+.right-section {
+    display: flex;
+    justify-content: center;
+
+}
+
+.right-section img {
+    max-width: 100%;
+    object-fit: cover;
+    height: auto
+}
+
+/*
+.btn-watch,
+.btn-trailer,
+.btn-fav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+*/
