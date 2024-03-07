@@ -185,13 +185,25 @@
     height: auto
 }
 
-/*
-.btn-watch,
-.btn-trailer,
-.btn-fav {
+.radios {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    gap: 8px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 3rem;
 }
-*/
+
+
+.round{
+    border: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color:#FFFFFF;
+}
+
+.inative {
+    background-color: #5a5959;
+    
+}
