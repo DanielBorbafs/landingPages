@@ -29,7 +29,13 @@
 .header {
     display: flex;
     align-items: center;
+    
+    width: 100%;
+    padding: 30px;
+    height: 80px;
     justify-content: space-between;
+    position: absolute;
+    top: 0;
 }
 
 .navbar a {
@@ -46,10 +52,16 @@
 }
 
 .first-section {
+    position: relative;
     background-image: url('../imgs/background.svg');
     background-size: cover;
     height: 100vh;
     z-index: -1;
+    flex-direction: column;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
