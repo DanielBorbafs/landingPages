@@ -1,1 +1,24 @@
 
+.second-section{
+    margin-left: 1.8rem;
+}
+.title-second h2{
+    color: #fff;
+    font-family: montserrat;
+    font-size: 30px;
+    margin-top: 1rem;
+    text-decoration: underline rgb(172, 25, 25);
+}
+
+.second-imgs img{
+   max-height: 140px;
+
+}
+
+.second-imgs{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
