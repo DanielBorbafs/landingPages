@@ -1,108 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
 
-*{
+:root{
+    --color-body: #000000;
+    --color-main: #F15382;
+    --font-title: Pattaya;
+    --font-size-h1: 70px;
+    --font-size-h2: 36px;
+    --font-size-p: 22px;
+    --font-size-btn: 22px
+
+}
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container{
-    width: 1100px;
+body{
+    background-color: var(--color-body);
 }
-
-.first-hero{
-    background-color: #000000;
+/* SECTION 01*/
+.principal{
     height: 100vh;
-    position: relative;
-
-
-}
-
-.shadow img{
-    position: absolute;
-    height: auto;
-}
-
-.shadow01{
-    top: 0;
-    right: 0;
-}
-
-.shadow02{
-    top: 0;
-    left: 0;
-    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
-.second-hero{
-    height: 100vh;
-    padding: 10px;
+.left-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-
-.left-content{
-    font-family: Pattaya;
-}
-
-.left-content h1{
-    font-size: 60px;
+.title {
+    font-family: var(--font-title);
+    font-size: var(--font-size-h1);
     color: #fff;
 }
 
-.left-content span{
-    font-size:80px;
-    color:  #F28AA9;;
+.title span {
+    color: var(--color-main);
 }
 
-.left-content h2{
-    margin-top: 2rem;
+.subtitle{
     font-family: montserrat;
-    font-size: 32px;
-    font-weight: 800;
-    color: #FFFFFF;
-
+    font-size: var(--font-size-h2);
+    font-weight: 700;
+    color: #fff;
 }
 
-.left-content p {
-    margin-top: 2rem;
-    font-family: montserrat;
-    font-size: 20px;
-    font-weight: 300;
-    color: #FFFFFF;
+.paragrafos{
+    font-size: var(--font-size-p);
+    color: #fff;
 }
 
 .btn-comprar{
-    margin-top: 2rem;
-    font-family: montserrat;
-    padding: 8px;
-    height: 50px;
+    padding: 0px 0px 0px 10px;
     display: flex;
     align-items: center;
+    width: 300px;
     justify-content: center;
-    font-size: 18px;
-    border-radius: 6px;
-    background-color: #F15382;
     border: none;
+    border-radius: 8px;
+    background-color: var(--color-main);
     color: #fff;
-    font-weight: 600;
+    font-weight: 700;
+    font-family: montserrat;
+    font-size: var(--font-size-btn);
 }
 
-
-.content-first{
-    display: flex;
-    align-items: center;
- 
+.card-obs {
+    font-family: montserrat;
+    font-style: italic;
+    background-color: #4848484d;
+    padding: 16px;
+    border-radius: 8px;
+    margin-top: 1rem;
+    color: #fff;
 }
 
-.left-content, .right-content {
-    margin-top: 10rem;
-}
-
-.card-aviso span{
-    font-size: 12px;
-}
-
-.right-content img{
-    max-width: 100%; /* A imagem não ficará maior que a largura da tela */
-    height: auto; /* A altura será ajustada automaticamente para manter a proporção */
-}
