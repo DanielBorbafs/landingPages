@@ -6,7 +6,7 @@
     --font-title: Pattaya;
     --font-size-h1: 70px;
     --font-size-h2: 36px;
-    --font-size-p: 22px;
+    --font-size-p: 18px;
     --font-size-btn: 22px
 
 }
@@ -51,9 +51,20 @@ body{
     color: #fff;
 }
 
+.subtitle-medium{
+    font-family: montserrat;
+    font-size: 32px;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+
 .paragrafos{
     font-size: var(--font-size-p);
     color: #fff;
+    font-weight: 300;
+    font-family: montserrat;
 }
 
 .btn-comprar{
@@ -81,3 +92,52 @@ body{
     color: #fff;
 }
 
+
+.imgs-hero img{
+    width: 275px;
+}
+
+/* section 02 */
+
+.p1, .p2{
+ 
+    max-width: 500px;
+}
+
+
+/* slide section 03*/
+.reviews{
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.review-title h2{
+    color: #fff;
+    font-family: montserrat;
+    font-weight: 600;
+}
+
+.review-title span{
+    color: var(--color-main);
+    text-decoration:underline;
+}
+.carousel-inner{
+    left: 50%;
+    margin-top: 18rem;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.carousel-item img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    margin-left: 13%;
+    
+}
+
+#carouselExampleFade button{
+    margin-top: 20rem;
+}
