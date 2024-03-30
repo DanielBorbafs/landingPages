@@ -176,3 +176,27 @@ body{
     justify-content: center;
     gap: 1rem;
 }
+
+/* PROMO SECTION */
+.promo {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.card-promo{
+    display: flex;
+    gap: 1rem;
+    background-color: #181818;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.text-promo > h3, h4, p {
+    color: #fff;
+}
+
+.text-promo span {
+    font-style: italic;
+    color: rgb(216, 46, 46);
+}
