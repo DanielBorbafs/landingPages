@@ -201,7 +201,7 @@ body{
     color: rgb(216, 46, 46);
 }
 
-/* ABOUT SECTION COZINHEIRA */
+/* ABOUT SECTION */
 
 .aboutme{
     margin-top: 2.5rem;
@@ -237,7 +237,7 @@ body{
 
 footer{
     margin-top: 6rem;
-    height: 140px;
+ 
     background-color: #1E1C1C ;
     display: flex;
 }
@@ -275,4 +275,12 @@ footer{
     background-color: var(--color-main);
     border-radius: 50%;
     cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+
+.logo img{
+    margin-bottom: 2rem;
+    width: 140px;
+    height: 140px;
 }
