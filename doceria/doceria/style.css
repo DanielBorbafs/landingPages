@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
+:root{
+    --color-body: #000000;
+    --color-main: #F15382;
+    --font-title: Pattaya;
+    --font-size-h1: 70px;
+    --font-size-h2: 36px;
+    --font-size-p: 18px;
+    --font-size-btn: 22px
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--color-body);
+}
+/* SECTION 01*/
+.principal{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.left-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title {
+    font-family: var(--font-title);
+    font-size: var(--font-size-h1);
+    color: #fff;
+}
+
+.title span {
+    color: var(--color-main);
+}
+
+.subtitle{
+    font-family: montserrat;
+    font-size: var(--font-size-h2);
+    font-weight: 700;
+    color: #fff;
+}
+
+.subtitle-medium{
+    font-family: montserrat;
+    font-size: 32px;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+
+.paragrafos{
+    font-size: var(--font-size-p);
+    color: #fff;
+    font-weight: 300;
+    font-family: montserrat;
+}
+
+.btn-comprar{
+    padding: 0px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    justify-content: center;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--color-main);
+    color: #fff;
+    font-weight: 700;
+    font-family: montserrat;
+    font-size: var(--font-size-btn);
+}
+
+.card-obs {
+    font-family: montserrat;
+    font-style: italic;
+    background-color: #4848484d;
+    padding: 16px;
+    border-radius: 8px;
+    margin-top: 1rem;
+    color: #fff;
+}
+
+
+.imgs-hero img{
+    width: 275px;
+}
+
+/* section 02 */
+
+.p1, .p2{
+ 
+    max-width: 500px;
+}
+
+
+/* slide section 03*/
+.reviews{
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.review-title h2{
+    color: #fff;
+    font-family: montserrat;
+    font-weight: 600;
+}
+
+.review-title span{
+    color: var(--color-main);
+    text-decoration:underline;
+}
+.carousel-inner{
+    left: 50%;
+    margin-top: 18rem;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.carousel-item img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    margin-left: 13%;
+    
+}
+
+#carouselExampleFade button{
+    margin-top: 20rem;
+}
+
+
+
+/* SECTION MAIS PEDIDOS*/
+
+.requests{
+    margin-top: 48rem;
+    position: relative;
+}
+
+.card-cook img{
+    position: relative;
+    max-width: 630px;
+    border-radius: 6px;
+}
+
+.cook-title{
+    background-color:#6C218F;
+    position: absolute;
+    bottom: 0;
+    width: 369px;
+    text-align: center;
+    font-family: var(--font-title);
+    
+}
+
+.cook-title h1{
+    margin-top: 1rem;
+    color: white;
+}
+
+.line-1{
+    justify-content: center;
+    gap: 1rem;
+}
+
+/* PROMO SECTION */
+.promo {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.card-promo{
+    display: flex;
+    gap: 1rem;
+    background-color: #181818;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.text-promo > h3, h4, p {
+    color: #fff;
+}
+
+.text-promo span {
+    font-style: italic;
+    color: rgb(216, 46, 46);
+}
+
+/* ABOUT SECTION */
+
+.aboutme{
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc-about h2{
+    font-family: montserrat;
+    color: #fff;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.aboutme p{
+    font-family: montserrat;
+    font-size: 16px;
+}
+
+.about-texts{
+    display: flex;
+    justify-content: center;
+}
+
+.about-texts{
+    margin-top: 1rem;
+}
+
+
+/* Footer*/
+
+footer{
+    margin-top: 6rem;
+ 
+    background-color: #1E1C1C ;
+    display: flex;
+}
+
+
+.logo{
+    color:#ffff;
+    font-size: 32px;
+}
+
+.line1 {
+    color: #ffff;
+    font-size: 16px;
+    font-family: montserrat;
+}
+
+.line2{
+    font-size: 14px;
+    font-family: montserrat;
+    color: #ffff;
+}
+
+.footer{
+    align-items: center;
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-around;
+}
+
+.social-medias i{
+    color: #fff;
+    margin-left: 6px;
+    padding: 4px;
+    font-size: 24px;
+    background-color: var(--color-main);
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+
+.logo img{
+    margin-bottom: 2rem;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
