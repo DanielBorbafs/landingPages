@@ -20,6 +20,18 @@
 body{
     background-color: var(--color-body);
 }
+
+/* HEADER */
+header{
+    display: flex;
+    justify-content: center;
+    
+}
+.logo-img{
+    margin-top: 1rem;
+    width: 130px;
+}
+
 /* SECTION 01*/
 .principal{
     height: 100vh;
