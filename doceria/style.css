@@ -244,3 +244,58 @@ header{
     color: #f0413b;
     font-style: italic;
 }
+
+
+/* ABOUT ME SECTION */
+.img-aboutme {
+    margin-top: 1rem;
+}
+.img-aboutme img{
+    width: 100%;
+}
+
+.aboutme-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.aboutme-desc h3 {
+    margin-top: 1rem;
+    text-align: center;
+    font-family: montserrat;
+}
+
+.aboutme-desc p {
+    font-family: montserrat;
+    font-size: 14px;
+    color: #FFFF
+}
+
+
+/* FOOTER */
+.footer {
+    padding: 1rem;
+    background-color: #1E1C1C;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.copy p {
+    color:#ffff ;
+    font-size: montserrat;
+}
+
+
+.redes-sociais {
+    display: flex;
+    gap: 10px;
+}
+
+.redes-sociais i{
+    font-size: 22px;
+    color: #f28aa9a1;
+    cursor: pointer;
+}
