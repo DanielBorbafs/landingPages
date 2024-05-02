@@ -108,3 +108,98 @@ header{
 .about-section .buy{
     margin-top: 1rem;
 }
+
+.line-galeria {
+    margin-top: 2rem;
+    display: flex;
+    gap: 4px;
+}
+
+.line-galeria img{
+    width: 180px;
+    height: 180px;
+}
+
+.line-galeria2 {
+    margin-top: 8px;
+    display: flex;
+    gap: 4px;
+}
+
+.line-galeria2 img{
+    width: 180px;
+    height: 180px;
+}
+
+/* SLIDER*/
+  .clientes {
+    margin-top: 2rem;
+  }
+  .clientes h3{
+    font-weight: 600;
+    font-family: montserrat;
+    text-align: center;
+  }
+
+  .clientes span {
+    color: var(--color-span);
+  }
+  .swiper-navBtn{
+    color: var(--color-span);
+    transition: color 0.3s ease;
+  }
+  .swiper-navBtn:hover{
+    color:var(--color-span);
+  }
+  .swiper-navBtn::before,
+  .swiper-navBtn::after{
+    font-size: 35px;
+  }
+  .swiper-button-next{
+    right: 0;
+  }
+  .swiper-button-prev{
+    left: 0;
+  }
+  .swiper-pagination-bullet{
+    background-color: var(--color-span);
+    opacity: 1;
+  }
+  .swiper-pagination-bullet-active{
+    background-color: var(--color-span);
+  }
+  .swiper-slide{
+    display: flex;
+    justify-content: center;
+  }
+  .swiper-slide img{
+    width: 250px
+  }
+  
+  @media screen and (max-width: 768px) {
+    .slide-content{
+      margin: 0 10px;
+    }
+    .swiper-navBtn{
+      display: none;
+    }
+}
+
+
+/* BESTS SELLERS */
+.bests-sellers{
+    margin-top: 1rem;
+}
+.bests-sellers h3 {
+    font-family: montserrat;
+    font-weight: 600;
+    text-align: center;
+    font-size: 24px;
+
+}
+
+.cards{
+    display: flex;
+    gap: 8px;
+    margin-top: 1rem;
+}
