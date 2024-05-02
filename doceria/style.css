@@ -198,8 +198,49 @@ header{
 
 }
 
+
+.promo {
+    margin-top: 2rem
+}
 .cards{
     display: flex;
     gap: 8px;
     margin-top: 1rem;
+}
+
+.card-promo{
+    
+    display: flex;
+    align-items: center;
+    background-color: #181818;
+}
+
+.promo-img img{
+    width: 130px;
+}
+
+.promo-desc{
+    padding: 16px;
+}
+.promo-desc h4{
+    font-family: montserrat;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.promo-desc h5{
+    font-family: montserrat;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.promo-desc p{
+    font-family: montserrat;
+    font-size: 12px;
+    color: #ffff;
+}
+
+.promo-desc span{
+    color: #f0413b;
+    font-style: italic;
 }
