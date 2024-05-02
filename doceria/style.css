@@ -83,3 +83,28 @@ header{
     display: flex;
     justify-content: center;
 }
+
+/* SEÇÃO SECUNDÁRIA */
+
+.about-section h2{
+    font-family: montserrat;
+    font-size: 20px;
+}
+
+.about-section{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-section p {
+    font-family: montserrat;
+    color: #FFFF;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.about-section .buy{
+    margin-top: 1rem;
+}
