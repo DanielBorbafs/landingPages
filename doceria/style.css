@@ -299,3 +299,114 @@ header{
     color: #f28aa9a1;
     cursor: pointer;
 }
+
+@media screen and (width > 768px) {
+    .first-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .first-text h1{
+        font-size: 64px;
+    }
+    
+    .first-text h3{
+        font-size: 16px;
+    }
+
+    .first-text p{
+        font-size: 14px;
+    }
+
+    .first-text .buy{
+        margin-top: 1rem;
+    }
+
+    .first-img img{
+        width: 350px;
+    }
+
+    .about-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        gap: 2rem;
+    }
+
+    .line-galeria img{
+        width: 280px;
+        height: 280px;
+    }
+
+    .line-galeria2 img{
+        width: 280px;
+        height: 280px;
+    }
+    
+    .bests-sellers{
+        margin-top: 2rem;
+    }
+
+    .cards img{
+        width: 220px;
+    }
+    
+    .promo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .promo img{
+        width: 160px;
+    }
+
+    .promo-img{
+        display: flex;
+        justify-content: center;
+    }
+    .card-promo {
+        width: 800px;
+        border-radius: 8px;
+    }
+    
+    .about{
+        margin-top: 2rem;
+    }
+
+    .clientes{
+        margin-top: 2rem;
+    }
+    .img-aboutme img{
+        width: 600px;
+    }
+
+    .img-aboutme {
+        display: flex;
+        justify-content: center;
+    }
+
+    .aboutme-desc{
+        margin-top: 1rem;
+    }
+
+    .aboutme-desc p{
+        font-size: 14px;
+        width: 800px;
+    }
+
+    footer{
+        margin-top: 1rem;
+    }
+
+
+   .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    
+}
