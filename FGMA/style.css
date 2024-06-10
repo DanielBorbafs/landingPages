@@ -273,3 +273,70 @@ header{
 }
 
 
+.partnes {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.list-partnes{
+    display: flex;
+    gap: 74px;
+}
+
+.testimonials{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonials-line1{
+    padding: 50px;
+    display: flex;
+    gap: 20px;
+}
+.card-testimonials{
+    width: 430px;
+    border: 1px solid #DEDEDE;
+    border-radius: 10px;
+
+
+}
+
+.review{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.profile-info{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.profile-info h5{
+    font-family: ABeeZee;
+    font-size: 16px;
+    
+}
+
+.profile-info span{
+    font-family: montserrat;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.text-review p{
+    font-family: ABeeZee;
+    font-size: 14px;
+}
+
+.profile-info span, h5, p {
+    color: #ffff;
+}
