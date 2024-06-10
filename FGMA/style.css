@@ -299,6 +299,12 @@ header{
     display: flex;
     gap: 20px;
 }
+
+.testimonials-line2{
+    display: flex;
+    gap: 20px;
+}
+
 .card-testimonials{
     width: 430px;
     border: 1px solid #DEDEDE;
@@ -339,4 +345,44 @@ header{
 
 .profile-info span, h5, p {
     color: #ffff;
+}
+
+.try{
+    background-color: #181818;
+    display: flex;
+    justify-content: center;
+}
+
+.try-card{
+    padding: 30px;
+    border-radius: 16px;
+    display: flex;
+    background-color: #343434;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.try-title{
+    font-size: 28px;
+    font-family: ABeeZee;
+    color: #ffff;
+}
+
+.try-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.try-desc a{
+    color: #4452FE;
+    font-size: 18px;
+    background-color: #DEDEDE;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border: 1px solid black;
 }
