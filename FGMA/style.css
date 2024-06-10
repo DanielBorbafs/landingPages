@@ -348,6 +348,7 @@ header{
 }
 
 .try{
+    padding: 50px;
     background-color: #181818;
     display: flex;
     justify-content: center;
@@ -385,4 +386,16 @@ header{
     justify-content: center;
     height: 50px;
     border: 1px solid black;
+}
+
+footer{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
 }
