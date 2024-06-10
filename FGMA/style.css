@@ -227,7 +227,7 @@ header{
 }
 
 .gallery {
-    margin-top: 2rem;
+    padding: 50px;
 }
 .gallery-img{
     display: flex;  
@@ -249,3 +249,27 @@ header{
     align-items: center;
     gap: 2rem;
 }
+
+.btn-gallery{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-gallery a {
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    height: 50px;
+    color: montserrat;
+    color: #ffff;
+    font-size: 16px;
+    background-color: #181818;
+    border: 1px solid gray;
+    margin-top: 32px;
+}
+
+
