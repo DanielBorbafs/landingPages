@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -14,30 +14,31 @@ body {
     background-color: #181818;
 }
 
-header{
+header {
     padding: 16px;
 }
-.menu-header{
+
+.menu-header {
     display: flex;
     width: 100%;
-   
+
     align-items: center;
     justify-content: center;
     gap: 145px
 }
 
-.header-list{
- display: flex;
- gap: 30px;
- font-size: 16px;
- font-family: Montserrat;
+.header-list {
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+    font-family: Montserrat;
 }
 
 .header-list a {
     color: #ffff;
 }
 
-.btn-login{
+.btn-login {
     background-color: #181818;
     color: #ffff;
     padding: 12px;
@@ -47,7 +48,7 @@ header{
     border: 1px solid #9e9a9a;
 }
 
-.intro-hero{
+.intro-hero {
     position: relative;
     padding: 2rem;
     display: flex;
@@ -56,7 +57,7 @@ header{
     gap: 16px;
 }
 
-.intro-hero h1{
+.intro-hero h1 {
     font-family: montserrat;
     font-size: 48px;
     text-align: center;
@@ -64,19 +65,19 @@ header{
     font-weight: 600;
 }
 
-.intro-hero p{
+.intro-hero p {
     color: #ffff;
     font-size: 16px;
     font-family: ABeeZee;
     text-align: center;
 }
 
-.btns-intro{
+.btns-intro {
     display: flex;
     gap: 64px;
 }
 
-.btns-intro a{
+.btns-intro a {
     margin-top: 1rem;
     display: flex;
     justify-content: center;
@@ -93,17 +94,17 @@ header{
     font-weight: 500;
 }
 
-.active{
+.active {
     background-color: #4452FE;
 }
 
 
-.intro-hero img{
+.intro-hero img {
     margin-top: 1rem;
 }
 
 
-.intro-apresentation{
+.intro-apresentation {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -111,25 +112,25 @@ header{
     gap: 1.2rem;
 }
 
-.shadow-intro-section{
+.shadow-intro-section {
     position: absolute;
     bottom: 0;
- 
+
     width: 100%;
 }
 
-.shadow-intro-section img{
- width: 100%;
+.shadow-intro-section img {
+    width: 100%;
 }
 
 
 /*=============================*/
 
-.features-section{
+.features-section {
     padding: 4rem;
 }
 
-.intro-apresentation h2{
+.intro-apresentation h2 {
     font-family: montserrat;
     font-size: 48px;
     text-align: center;
@@ -138,44 +139,45 @@ header{
 }
 
 
-.intro-apresentation p{
+.intro-apresentation p {
     color: #ffff;
     font-size: 16px;
     font-family: ABeeZee;
     text-align: center;
 }
 
-.features-hero{
+.features-hero {
     padding: 2.8rem;
     display: flex;
     justify-content: center;
 }
 
-.features-skills{
+.features-skills {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-   
+
 
 }
-.card-title{
+
+.card-title {
     display: flex;
     align-items: center;
     gap: 8px;
 }
 
-.cards-skills{
+.cards-skills {
     max-width: 60%;
     padding: 1rem;
 }
 
-.cards-skills p{
+.cards-skills p {
     color: #ffff;
     font-family: ABeezee;
-   
+
 }
 
-.card-title h3{
+.card-title h3 {
     padding: 6px;
     color: #ffff;
     font-size: 22px;
@@ -183,17 +185,17 @@ header{
 
 }
 
-.card-content img{
+.card-content img {
     width: 400px;
 }
 
-.content-card{
+.content-card {
     display: flex;
     justify-content: center;
     gap: 32px;
 }
 
-.card-content{
+.card-content {
     margin-top: 2.5rem;
     display: flex;
     flex-direction: column;
@@ -205,18 +207,18 @@ header{
     border-radius: 12px;
 }
 
-.card-content h4{
+.card-content h4 {
     font-size: 20px;
     font-family: ABeezee;
 }
 
-.card-content p{
+.card-content p {
     text-align: center;
     font-family: montserrat;
     font-weight: 500;
 }
 
-.btn-signup{
+.btn-signup {
     background-color: #4452FE;
     padding: 12px;
     color: #ffff;
@@ -229,28 +231,29 @@ header{
 .gallery {
     padding: 50px;
 }
-.gallery-img{
-    display: flex;  
+
+.gallery-img {
+    display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-.line1{
+.line1 {
     padding: 2rem;
     display: flex;
-    gap:1.2rem;
+    gap: 1.2rem;
     justify-content: center;
     align-items: center;
 }
 
-.line2{
+.line2 {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
 }
 
-.btn-gallery{
+.btn-gallery {
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -274,7 +277,7 @@ header{
 
 
 .partnes {
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -282,30 +285,30 @@ header{
     gap: 50px;
 }
 
-.list-partnes{
+.list-partnes {
     display: flex;
     gap: 74px;
 }
 
-.testimonials{
+.testimonials {
     padding: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.testimonials-line1{
+.testimonials-line1 {
     padding: 50px;
     display: flex;
     gap: 20px;
 }
 
-.testimonials-line2{
+.testimonials-line2 {
     display: flex;
     gap: 20px;
 }
 
-.card-testimonials{
+.card-testimonials {
     width: 430px;
     border: 1px solid #DEDEDE;
     border-radius: 10px;
@@ -313,48 +316,50 @@ header{
 
 }
 
-.review{
+.review {
     padding: 40px;
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-.profile-info{
+.profile-info {
     display: flex;
     align-items: center;
     gap: 16px;
 }
 
-.profile-info h5{
+.profile-info h5 {
     font-family: ABeeZee;
     font-size: 16px;
-    
+
 }
 
-.profile-info span{
+.profile-info span {
     font-family: montserrat;
     font-size: 14px;
     font-weight: 600;
 }
 
-.text-review p{
+.text-review p {
     font-family: ABeeZee;
     font-size: 14px;
 }
 
-.profile-info span, h5, p {
+.profile-info span,
+h5,
+p {
     color: #ffff;
 }
 
-.try{
+.try {
     padding: 50px;
     background-color: #181818;
     display: flex;
     justify-content: center;
 }
 
-.try-card{
+.try-card {
     padding: 30px;
     border-radius: 16px;
     display: flex;
@@ -364,19 +369,19 @@ header{
 
 }
 
-.try-title{
+.try-title {
     font-size: 28px;
     font-family: ABeeZee;
     color: #ffff;
 }
 
-.try-desc{
+.try-desc {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-.try-desc a{
+.try-desc a {
     color: #4452FE;
     font-size: 18px;
     background-color: #DEDEDE;
@@ -388,7 +393,7 @@ header{
     border: 1px solid black;
 }
 
-footer{
+footer {
     padding: 50px;
     display: flex;
     justify-content: center;
@@ -398,4 +403,41 @@ footer{
 .footer-list {
     display: flex;
     flex-direction: column;
+    gap: 2px;
+}
+
+
+.footer-list a {
+    color: #ffff;
+    font-family: montserrat;
+    font-size: 1rem;
+}
+
+.footer-list i {
+    font-size: 24px;
+}
+
+.footer-container2 h3 {
+    font-family: montserrat;
+    color: #ffff;
+    font-size: 22px;
+}
+
+.footer-list h3 {
+    margin-top: 16px;
+    margin-bottom: 1rem;
+    font-family: montserrat;
+    color: #ffff;
+    font-size: 22px;
+}
+
+
+.footer-container2 {
+    padding: 12px;
+}
+
+.footer-container2>.footer-list {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
 }
