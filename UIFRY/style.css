@@ -160,6 +160,7 @@ header{
     width: 100%;
     align-items: center;
     justify-content: center;
+    gap: 64px;
 }
 
 .features span{
@@ -203,4 +204,40 @@ header{
     flex-direction: column;
     gap: 12px;
 
+}
+
+/* about - why */
+
+.notifications {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.why-section{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.notifications{
+    display: flex;
+    gap: 1rem;
+}
+
+.notifications h3{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.why-section-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.why-section-desc p{
+    font-family: actor;
+    font-weight: 500;
 }
