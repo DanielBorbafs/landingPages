@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 64px;
+    font-family: arimo, 'sans-serif';
+}
+
+h2{
+ font-size: 48px;
+ font-family: actor;
+
+}
+
+h3{
+    font-size: 28px;
+    font-family: actor;
+}
+
+span{
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: actor;
+    color: #FF5555;
+}
+
+p{
+    font-size: 18px;
+    color: #000000;
+}
+
+
+/* HEADER */
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+}
+
+.header-list{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.header-list img{
+    margin-right: 1.6rem;
+}
+
+.header-list a{
+    font-size: 20px;
+    font-family: arimo;
+    text-decoration: none;
+    color: #000000;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vh;
+}
+
+.btn-download{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    width: 180px;
+    height: 60px;
+    border-radius: 4px;
+}
+
+.btn-download a{
+    color: #ffff;
+    text-decoration: none;
+    font-size: actor;
+    font-size: 20px;
+}
+
+
+/* FIRST HERO */
+
+.first-hero{
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+
+}
+
+.first-hero-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.imghero{
+    position: relative;
+    z-index: 3;
+    margin-left: 8rem;
+}
+
+
+.circles-hero{
+    margin-top: 1.5rem;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+  
+}
+
+.circles-hero img{
+   height: 800px;
+    margin-right: 9rem;
+}
+
+
+.elipse{
+    position: absolute;
+    opacity: 100%;    
+    z-index: 1;
+    bottom: 0;
+    right: 12%;
+    margin-bottom: 8rem;
+}
+
+
+.first-hero-btns{
+    display: flex;
+    gap: 2rem;
+}
+
+.first-hero-btns a{
+    width: 150px;
+    background-color: rgb(8, 8, 8);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: actor;
+    font-weight: 700;
+    padding: 8px;
+
+    color: #ffff;
+}
