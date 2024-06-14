@@ -151,3 +151,56 @@ header{
 
     color: #ffff;
 }
+
+
+/* FEATURES */
+
+.features {
+    display:  flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.features span{
+    text-transform: uppercase;
+}
+
+.features-title{
+    margin-bottom: 32px;
+}
+.features-desc-title{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.features-desc{
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+}
+
+.features-desc p{
+    font-family: actor;
+}
+
+
+.features-desc-title p{
+    font-family: actor;
+    font-weight: 600;
+}
+
+.features-about{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.features-desc-option{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
