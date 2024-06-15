@@ -241,3 +241,26 @@ header{
     font-family: actor;
     font-weight: 500;
 }
+
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.skills-desc{
+    display: flex;
+}
+
+.skills-title{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.skills-text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
