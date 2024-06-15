@@ -264,3 +264,47 @@ header{
     flex-direction: column;
     gap: 16px;
 }
+
+
+/* testimonial */
+
+.testimonial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title-testimonial span{
+    display: flex;
+    justify-content: center;
+}
+.title-testimonial h3{
+    text-align: center; 
+}
+
+.container-testimonial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-container-text{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.about-container-text h4{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: actor;
+}
+.about-container-text img{
+    width: 220px;
+}
+
+.about-container-text span{
+    color: #000000;
+    font-weight: 600;
+}
