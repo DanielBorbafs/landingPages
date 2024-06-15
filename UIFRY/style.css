@@ -308,3 +308,61 @@ header{
     color: #000000;
     font-weight: 600;
 }
+
+
+.faq{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.faq-title{
+    margin-bottom: 1rem;
+    width: 57.5%;
+    text-align:start;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+   
+}
+.card-faq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 12px;
+    width: 530px;
+    height: 180px;
+    border-radius: 8px;
+}
+
+.card-faq h4{
+    font-size: 28px;
+    color: #ffff;
+    font-family: actor;
+    font-weight: 400;
+}
+
+.faq-questions{
+    display: flex;
+    gap: 20px;
+}
+
+.faq-questions-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faq-questions-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bg{
+    background-color: #FF5555;
+}
+
+.font{
+    color: #000000;
+}
