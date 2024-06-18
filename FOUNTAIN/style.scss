@@ -164,7 +164,7 @@ i.bx.bx-menu-alt-left {
         color: #ffffff;
         font-size: 32px;
         text-align: center;
-        
+
     }
     p{
         color: #ffffff;
@@ -184,5 +184,71 @@ i.bx.bx-menu-alt-left {
         font-size: 16px;
     }
 
- }
+}
+
+.skills{
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.8rem;
+    align-items: center;
+    justify-content: center;
+    .skill-card{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        p{
+            font-size: 18px;
+        }
+    }
+    
+}
+
+.course {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    .card-course{
+        img{
+            border-radius: 8px 8px 0px 0px;
+        }
+        max-width: 180px;
+        display: flex;
+        flex-direction: column;
+        .card-course-title{
+            padding: 6px;
+            display: flex;
+         h3{
+            font-size: 16px;
+         }
+        }
+        .value{
+            padding: 6px;
+            .price{
+                color: #F77D27;
+            }
+            .weeks{
+                
+                display: flex;
+                gap: 6px;
+                align-items: center;
+                img{
+                    width: 12px;
+                    height: 12px;
+                }
+            }
+            .duration{
+                display: flex;
+                height: 40px;
+                align-items: center;
+                gap: 8px;
+                
+            }
+        }
+
+    }
+
+}
  
