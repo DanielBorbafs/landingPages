@@ -19,6 +19,7 @@ body {
     height: 100vh;
     background-image: url(imgs/Background.png);
     background-size: contain;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
 }
@@ -68,4 +69,25 @@ body {
 .container-principal__btns p {
     color: var(--cinza-claro);
     text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.container__text {
+    color: var(--branco-title);
+    width: 580px;
+}
+
+.container__text h2 {
+    font-size: 48px;
+}
+
+.container__text p {
+    font-size: 1rem;
+    color: var(--cinza-claro);
 }
