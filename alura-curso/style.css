@@ -76,7 +76,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 2.5rem;
-    height: 100vhgg;
+    height: 100vh;
 }
 
 .container__text {
@@ -102,4 +102,66 @@ body {
     margin-top: 5rem;
     font-weight: 500;
     border-radius: 4px;
+}
+
+.container-dispositivos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container-dispositivos h3 {
+    font-size: 2rem;
+    color: var(--branco-title);
+}
+
+.dispositivos__lista {
+    display: flex;
+}
+
+.dispositivos__item {
+    color: var(--branco-title);
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dispositivos__item span {
+    font-size: 1rem;
+}
+
+.footer img {
+    width: 100px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    gap: 2rem;
+}
+
+.links {
+    display: flex;
+    gap: 8px;
+}
+
+.links>li>a {
+    color: var(--branco-title);
+    text-decoration: none;
+}
+
+li>a:hover {
+    color: var(--azul-principal);
+}
+
+.footer p {
+    color: var(--cinza-claro);
+    text-align: center;
+    max-width: 80%;
 }
