@@ -76,6 +76,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 2.5rem;
+    height: 100vhgg;
 }
 
 .container__text {
@@ -90,4 +91,15 @@ body {
 .container__text p {
     font-size: 1rem;
     color: var(--cinza-claro);
+    margin-bottom: 1rem;
+}
+
+.btn-acesso {
+    text-decoration: none;
+    color: var(--branco-title);
+    background-color: var(--azul-principal);
+    padding: 10px;
+    margin-top: 5rem;
+    font-weight: 500;
+    border-radius: 4px;
 }
